@@ -33,7 +33,7 @@ Copy the Docker registry plist into place:
 ```
 plutil -lint com.docker.registry.plist
 cp com.docker.registry.plist ~/Library/LaunchAgents/
-chmod 644 /Library/LaunchAgents/com.docker.registry.plist
+chmod 644 ~/Library/LaunchAgents/com.docker.registry.plist
 ```
 
 Start the Docker registry:
