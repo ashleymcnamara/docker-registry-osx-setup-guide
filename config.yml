@@ -8,7 +8,7 @@ storage:
     cache:
         layerinfo: inmemory
     filesystem:
-        rootdirectory: /var/lib/registry
+        rootdirectory: /Users/Shared/Registry
 http:
     addr: 0.0.0.0:5000
     secret: mytokensecret 

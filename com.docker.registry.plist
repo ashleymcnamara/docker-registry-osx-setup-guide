@@ -6,12 +6,16 @@
 	<string>com.docker.registry</string>
 	<key>KeepAlive</key>
 	<true/>
+	<key>StandardErrorPath</key>
+	<string>/Users/Shared/Registry/registry.log</string>
+	<key>StandardOutPath</key>
+	<string>/Users/Shared/Registry/registry.log</string>
 	<key>Program</key>
 	<string>/usr/local/libexec/registry</string>
 	<key>ProgramArguments</key>
 	<array>
 		<string>/usr/local/libexec/registry</string>
-		<string>/etc/registry/config.yml</string>
+		<string>/Users/Shared/Registry/config.yml</string>
 	</array>
 	<key>Sockets</key>
 	<dict>

@@ -22,14 +22,8 @@ sudo cp bin/registry /usr/local/libexec/registry
 Copy the registry configuration file in place:
 
 ```
-sudo mkdir /etc/registry
-sudo cp config.yml /etc/registry/config.yml
-```
-
-Create the local image storage directory:
-
-```
-sudo mkdir /var/lib/registry
+mkdir /Users/Shared/Registry
+cp config.yml /Users/Shared/Registry/config.yml
 ```
 
 ## Running the Docker Registry under launchd
